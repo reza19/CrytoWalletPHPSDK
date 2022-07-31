@@ -1,3 +1,3 @@
-# CrytoWalletPHPSDK
+# CrytoWallet PHP-SDK
 PHP-SDK for Crypto Wallet
-Contact:http://reza.biz      Coin:ETH,BSC,FTM and ...
+Coin:ETH,BSC,FTM and ... .  if you need api-key contact-us:reza19sh@gmail.com http://reza.biz      
