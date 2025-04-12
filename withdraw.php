@@ -13,7 +13,7 @@ $address_id = 4; //from
 $to_address = '0xdfe57fb8d708da0bd49d6135657304e838ae3e74';
 $amount = '0.001';
 
-$res = $Rwallet->withdraw($coin,$address_id,$to_address,$amount);
+$res = $Rwallet->withdraw($coin,$address_id,$to_address,$amount,'PUT_UNIQUE_REQUEST_ID');
 print_r($res);
 
 /*
@@ -25,6 +25,8 @@ Array
 )
 
 ----
+Array ( [name] => Conflict [message] => This request has already been processed [code] => 0 [status] => 409 ) 
+
 Array
 (
     [errors] => Array
